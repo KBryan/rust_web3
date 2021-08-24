@@ -1,0 +1,18 @@
+[package]
+name = "rust_web3"
+version = "0.1.0"
+authors = ["Kwame Bryan <kwame.bryan@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+web3 = "0.17.0"
+tokio = "1.10.0"
+async-std = "1.9.0"
+
+#[lib]
+#name = "mobile_web3" # the name of the library that will be generated
+#crate-type = ["dylib"]
+
+
+
